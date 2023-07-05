@@ -1,0 +1,248 @@
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    min-height:100vh;
+    flex-direction: column;
+    text-decoration: none;
+    color: #888;
+}
+
+header{
+    width:100%;
+    display: flex;
+    padding:0px;
+    color: #EB6440;
+    background-color: lightblue;
+    border-radius: 10px;
+    
+}
+.header{
+    font-size: 28px;
+    font-style: bold;
+    padding: 30px;
+}
+
+
+
+/*-----------------------------------------------------------------------------------------------------*/
+* {box-sizing: border-box}
+/* Full-width input fields */
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* Add a background color when the inputs get focus */
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for all buttons */
+li>button {
+  display: block;
+  padding: 15px;
+  color: white;
+  text-decoration: none;
+  background-color: blue;
+  border-radius: 10px;
+  
+}
+button {
+  display: block;
+  padding: 15px;
+  color: white;
+  text-decoration: none;
+  background-color: blue;
+  border-radius: 10px;
+  border: transparent;
+  cursor: pointer;
+}
+li>button:hover {
+  background-color: lightcoral;
+  opacity: 1;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgba(0,0,0,0.75);
+  padding-top: 50px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* Style the horizontal ruler */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
+}
+
+/* Floating column for labels: 25% width */
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+/* Floating column for inputs: 75% width */
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+
+
+/* Add a color to the active/current link */
+a.active {
+  background-color: lightcoral;
+  color: white;
+}
+
+
+footer{
+  border-radius: 10px;
+    background-color: lightblue;
+    bottom: 0;
+    color: #EB6440;
+    width:100%;
+    text-align: center;
+    height:230px;
+    margin: 0px;
+}
+.flex-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#nav{
+    background-color: blue;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+li {
+    float: left;
+  }
+  
+li a {
+    display: block;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    background-color: blue;
+    border-radius: 10px;
+  }
+.user_welcome {
+    display: block;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    background-color: blue;
+    border-radius: 10px;
+  } 
+
+#signup{
+    float: right;
+}
+
+li a:hover{
+background-color: lightcoral;
+cursor: pointer;
+}
+
+.flex-container-row{
+  display: flex;
+  flex-direction: row;
+}
+
+#inner{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.wrapper{
+  flex: 1;
+}
+
+.readOnly{
+  border:solid yellow;
+  border-radius:2px;
+background-color:white;
+ 
+} 
