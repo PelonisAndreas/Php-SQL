@@ -1,2 +1,2 @@
 # Php-SQL
-A cinema website that offers movies to view by users, a sign-up/log-in feature for users, admin page to handle all the database objects etc. The database is mySql
+This particular project is about an information system for a cinema webpage, where a visitor to the page can see the available movies. They can also request the creation of an account, which needs to be approved by an administrator first. The user of the page can also view the movies and book tickets for them by selecting the number of tickets and a showtime. The system administrator can add users, approve, edit, and delete users. They can also perform the same actions for movies, showtimes, and reservations. This system is implemented using PHP, JavaScript, CSS, and SQL
